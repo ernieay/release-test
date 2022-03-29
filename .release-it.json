@@ -1,6 +1,13 @@
 {
+  "git": {
+    "tag": "true",
+    "push": "true"
+  },
   "github": {
     "release": "true",
     "releaseName": "Release v${version}"
+  },
+  "npm": {
+    "release": "false"
   }
 }
