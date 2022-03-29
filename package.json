@@ -3,7 +3,7 @@
   "version": "1.41.0",
   "description": "Enterprise Platform",
   "scripts": {
-    "release": "release-it --dry-run"
+    "release": "release-it --dry-run --minor"
   },
   "repository": {
     "type": "git",
