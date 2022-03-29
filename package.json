@@ -1,0 +1,25 @@
+{
+  "name": "release-test",
+  "version": "1.41.0",
+  "description": "Enterprise Platform",
+  "scripts": {
+    "release": "release-it --dry-run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ernieay/release-test.git"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/ernieay/release-test/issues"
+  },
+  "homepage": "https://github.com/ernieay/release-teste#readme",
+  "engines": {
+    "node": "14",
+    "npm": "6"
+  },
+  "devDependencies": {
+    "release-it": "^14.13.1"
+  }
+}
