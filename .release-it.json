@@ -5,7 +5,8 @@
   },
   "github": {
     "release": "true",
-    "releaseName": "Release v${version}"
+    "releaseName": "Release v${version}",
+    "tokenRef": "GITHUB_TOKEN_2"
   },
   "npm": {
     "release": "false"
