@@ -1,6 +1,6 @@
 {
   "name": "release-test",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "description": "Enterprise Platform",
   "scripts": {
     "release": "release-it -- minor --ci --only-version"
