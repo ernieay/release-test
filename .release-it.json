@@ -9,7 +9,5 @@
     "releaseName": "Release v${version}",
     "tokenRef": "GITHUB_TOKEN"
   },
-  "npm": {
-    "publish": "false"
-  }
+  "npm": "false"
 }
