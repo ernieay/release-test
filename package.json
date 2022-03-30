@@ -1,9 +1,9 @@
 {
   "name": "release-test",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "Enterprise Platform",
   "scripts": {
-    "release": "release-it -- minor -- ci"
+    "release": "release-it -- minor --ci --only-version"
   },
   "repository": {
     "type": "git",
