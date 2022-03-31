@@ -10,7 +10,7 @@
     "tokenRef": "GITHUB_TOKEN"
   },
   "npm": {
-    "publish": "false"
+    "publish": false
   },
   "hooks": {
     "after:release": [
