@@ -13,6 +13,12 @@
     "publish": "false"
   },
   "hooks": {
-    "after:release": "echo Release v${version} ready\n\necho tag v${version}\nhttps://${repo.host}/siteminder-au/${name}/releases/tag/${version}\necho buildkite tag build v${version}\necho https://buildkite.com/siteminder/${name}/builds?branch=v${version}"
+    "after:release": [
+      "echo 'Release v${version} ready'",
+      "echo \"tag v${version}\"",
+      "echo https://${repo.host}/siteminder-au/${name}/releases/tag/${version}",
+      "echo buildkite tag build v${version}",
+      "echo https://buildkite.com/siteminder/${name}/builds?branch=v${version}"
+    ]
   }
 }
