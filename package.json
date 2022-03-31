@@ -3,7 +3,7 @@
   "version": "0.20.0",
   "description": "Enterprise Platform",
   "scripts": {
-    "release": "release-it --ci --no-npm"
+    "release": "release-it --ci"
   },
   "repository": {
     "type": "git",
