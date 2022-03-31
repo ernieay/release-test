@@ -13,6 +13,19 @@
     "publish": "false"
   },
   "hooks": {
-    "after:release": "echo Successfully released ${name} v${version} to ${repo.repository}."
+    "after:release": "echo ${name} ${repo.remote} ${repo.host} ${repo.project}"
   }
 }
+
+Release v${version} ready
+
+tag v${version}
+https://github.com/siteminder-au/cm-enterprise/releases/tag/v${version}
+... platform-enterprise tag link
+... mp-ibe tag link
+
+release v${version}
+links to the github release for all system repositories
+
+buildkite tag build v${verison}
+links to the buildkite tag builds
