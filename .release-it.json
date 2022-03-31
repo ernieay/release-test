@@ -13,6 +13,6 @@
     "publish": "false"
   },
   "hooks": {
-    "after:release": "echo ${name} ${repo.remote} ${repo.host} ${repo.project}"
+    "after:release": "https://${repo.host}/siteminder-au/${name}/releases/tag/${version}"
   }
 }
