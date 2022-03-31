@@ -3,7 +3,8 @@
   "version": "0.8.0",
   "description": "Enterprise Platform",
   "scripts": {
-    "release": "release-it minor --ci --no-npm"
+    "release": "release-it minor --ci --no-npm",
+    "release-patch": "release-it patch --ci --no-npm"
   },
   "repository": {
     "type": "git",
