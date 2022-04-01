@@ -15,7 +15,8 @@
   "hooks": {
     "after:release": [
       "echo Release v${version} ready",
-      "echo Buildkite: https://buildkite.com/siteminder/${name}/builds?branch=v${version}"
+      "echo Buildkite: https://buildkite.com/siteminder/${name}/builds?branch=v${version}",
+      "echo ${version} ${latestVersion}"
     ]
   }
 }
