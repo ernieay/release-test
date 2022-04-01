@@ -16,7 +16,7 @@
     "after:release": [
       "echo Release v${version} ready",
       "echo Buildkite: https://buildkite.com/siteminder/${name}/builds?branch=v${version}",
-      "echo ${version} ${latestVersion}"
+      "echo Diff: https://${repo.host}/siteminder-au/${name}/compare/v${latestVersion}..v${version}"
     ]
   }
 }
